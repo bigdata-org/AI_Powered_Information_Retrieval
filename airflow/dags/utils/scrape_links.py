@@ -5,24 +5,23 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import json
-from utils.aws import s3
-
-
+from aws import s3
+import os
 
 def scrape_pdf_links():
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36")
-
     driver = webdriver.Chrome(options=options)
 
+    bucket_name = os.getenv('BUCKET_NAME')
     s3_client = s3.get_s3_client()
     try:
         # Navigate to the page
         driver.get("https://investor.nvidia.com/financial-info/quarterly-results/default.aspx")
         
         pdf_links = {}
-        years_to_scrape = {"2025","2024"}
+        years_to_scrape = {"2025","2024","2023","2022","2021"}
         
         for year in years_to_scrape:
             # Wait for the dropdown to be present
@@ -41,7 +40,7 @@ def scrape_pdf_links():
             # Find all accordion toggle buttons
             accordion_buttons = driver.find_elements(By.XPATH, "//button[contains(@class, 'evergreen-financial-accordion-toggle')]")
             
-            year_links = []
+            year_links = {}
             
             # Expand each accordion section
             for i, button in enumerate(accordion_buttons):
@@ -88,11 +87,10 @@ def scrape_pdf_links():
                         
                         # Filter for only 10-Q and 10-K documents
                         if '10-Q' in text or '10-K' in text:
-                            year_links.append({
-                                'year': year,
-                                'quarter': quarter_name,
+                            year_links.update({
+                                quarter_name: href,
                                 # 'text': text,
-                                'url': href
+                                # 'url': href
                             })
                     
                     # Close this accordion section before opening the next one
@@ -104,13 +102,23 @@ def scrape_pdf_links():
             
             pdf_links[year] = year_links
 
-        file = json.dumps(pdf_links)
-        # s3_client
-        return file
-    
+        json_data = json.dumps(pdf_links)   
+        s3_key = "metadata/metadata.json"
+        try:
+            s3_client.put_object(
+                Bucket=bucket_name,
+                Key=s3_key,
+                Body=json_data,
+                ContentType='application/json'
+            )
+            return "metadata.json file uploaded successfully "
+        except:
+            return "file not uploaded to s3"
+        
+
     finally:
         # Close the browser when done
         driver.quit()
 
 
-# print(scrape_pdf_links())
+print(scrape_pdf_links())

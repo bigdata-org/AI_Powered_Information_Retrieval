@@ -87,8 +87,5 @@ def upload_data_etl(url):
 
 
 
-
-
-
 # if __name__ == "__main__":
 #     upload_data_etl("https://rag-pipeline-data.s3.us-east-2.amazonaws.com/p.pdf")

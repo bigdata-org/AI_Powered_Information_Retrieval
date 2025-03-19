@@ -7,6 +7,7 @@ import time
 import json
 from aws import s3
 import os
+import re
 
 def scrape_pdf_links():
     options = webdriver.ChromeOptions()
@@ -87,8 +88,12 @@ def scrape_pdf_links():
                         
                         # Filter for only 10-Q and 10-K documents
                         if '10-Q' in text or '10-K' in text:
+                            match = re.search(r"(first|second|third|fourth)", quarter_name, re.IGNORECASE)
+                            if match:
+                                quarter_map = {"first": "1", "second": "2", "third": "3", "fourth": "4"}
+                                quarter = quarter_map[match.group(1).lower()]
                             year_links.update({
-                                quarter_name: href,
+                                quarter: href,
                                 # 'text': text,
                                 # 'url': href
                             })

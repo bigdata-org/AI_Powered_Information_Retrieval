@@ -1,7 +1,8 @@
 import boto3
 import os
 from dotenv import load_dotenv
-
+import json
+import requests
 
 load_dotenv() 
 def get_s3_client():
@@ -15,3 +16,5 @@ def get_s3_client():
         return s3_client
     except:
         return -1
+    
+

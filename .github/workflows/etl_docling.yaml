@@ -1,0 +1,38 @@
+name : ETL using Docling
+
+on:
+  schedule:
+  - cron: "30"
+  workflow_dispatch:
+    
+
+jobs:
+  etl:
+    runs-on: ubuntu-latest
+    env:
+      BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME}}
+      REGION: ${{ secrets.AWS_REGION }}
+
+    steps:
+      - name: Debug GitHub Event
+        run : echo "${{ github.event_name}}"
+
+      - name: Checkout repository
+        uses : actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install docling boto3 
+
+      - name: Run Python script for ETL using Docling
+        env: 
+          BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME}}
+          REGION: ${{ secrets.AWS_REGION }}
+
+        run: python backend/etl_docling.py
+
+

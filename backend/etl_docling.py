@@ -40,14 +40,17 @@ def report_data_etl():
     json_link_key = "metadata/metadata.json"
     s3_url =f"https://{bucket_name}.s3.{region}.amazonaws.com/{json_link_key}"
 
+    print(f"loading data from {s3_url}")
     response = requests.get(s3_url)
     json_data = json.loads(response.content)
+
 
     try:
         for year,qtrs in json_data.items():
             for qtr, link in json_data[year].items():
                 file_link = json_data[year][qtr]
 
+                print(f"loadind data for year {year}: {qtr}")
                 # convert to md
                 source = file_link # document per local path or URL
                 result = converter.convert(source)

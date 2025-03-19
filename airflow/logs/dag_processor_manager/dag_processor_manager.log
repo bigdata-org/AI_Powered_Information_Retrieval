@@ -1842,3 +1842,80 @@ File Path                               PID    Runtime      # DAGs    # Errors  
 /opt/airflow/dags/dag_etl_docling.py                             0           1  0.26s           2025-03-19T06:47:54                       5
 ================================================================================
 [2025-03-19T06:48:29.609+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-19T22:15:52.163+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-19T22:15:52.172+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-19T22:15:52.182+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-19T22:15:52.191+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-19T22:15:53.062+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-19T22:15:53.261+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/dag_etl_docling.py       88  0.08s             0           0                                                   0
+/opt/airflow/dags/dag_etl_mistralai.py     87  0.12s             0           0                                                   0
+/opt/airflow/dags/dag_scrape_links.py                            0           0                                                   0
+================================================================================
+[2025-03-19T22:16:23.281+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_etl_mistralai.py                           1           0  10.73s          2025-03-19T22:16:03                      45
+/opt/airflow/dags/dag_etl_docling.py                             0           1  9.22s           2025-03-19T22:16:02                       3
+/opt/airflow/dags/dag_scrape_links.py                            1           0  2.59s           2025-03-19T22:16:05                      45
+================================================================================
+[2025-03-19T22:16:53.519+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_etl_docling.py                             0           1  10.35s          2025-03-19T22:16:43                       5
+/opt/airflow/dags/dag_etl_mistralai.py                           1           0  9.42s           2025-03-19T22:16:43                      12
+/opt/airflow/dags/dag_scrape_links.py                            1           0  2.26s           2025-03-19T22:16:45                      12
+================================================================================
+[2025-03-19T22:17:24.154+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_etl_mistralai.py                           1           0  4.40s           2025-03-19T22:17:18                      12
+/opt/airflow/dags/dag_scrape_links.py                            1           0  2.04s           2025-03-19T22:17:18                      12
+/opt/airflow/dags/dag_etl_docling.py                             0           1  1.85s           2025-03-19T22:17:15                       5
+================================================================================
+[2025-03-19T22:17:54.643+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_etl_mistralai.py                           1           0  1.59s           2025-03-19T22:17:50                      12
+/opt/airflow/dags/dag_scrape_links.py                            1           0  1.07s           2025-03-19T22:17:49                      12
+/opt/airflow/dags/dag_etl_docling.py                             0           1  0.99s           2025-03-19T22:17:46                       5
+================================================================================
+[2025-03-19T22:18:25.503+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_etl_mistralai.py                           1           0  1.08s           2025-03-19T22:18:21                      12
+/opt/airflow/dags/dag_scrape_links.py                            1           0  0.66s           2025-03-19T22:18:21                      12
+/opt/airflow/dags/dag_etl_docling.py                             0           1  0.50s           2025-03-19T22:18:17                       5
+================================================================================
+[2025-03-19T22:18:55.917+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag_etl_mistralai.py                           1           0  1.30s           2025-03-19T22:18:53                      12
+/opt/airflow/dags/dag_scrape_links.py                            1           0  0.81s           2025-03-19T22:18:52                      12
+/opt/airflow/dags/dag_etl_docling.py                             0           1  0.56s           2025-03-19T22:18:48                       5
+================================================================================
+[2025-03-19T22:19:23.124+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-19T22:19:23.126+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

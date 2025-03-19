@@ -1,4 +1,4 @@
-from utils.aws import s3
+from aws import s3
 import os 
 from dotenv import load_dotenv
 import requests
@@ -43,60 +43,66 @@ def report_data_etl():
     response = requests.get(s3_url)
     json_data = json.loads(response.content)
 
+    response = s3_client.list_objects_v2(Bucket=bucket_name, Delimiter='/')
+    folders = [prefix["Prefix"].split("/")[0] for prefix in response.get("CommonPrefixes", [])]
+
     try:
         for year,qtrs in json_data.items():
-            for qtr, link in json_data[year].items():
-                file_link = json_data[year][qtr]
+            if year in folders:
+                print(f"Data for {year} already present")
+            else:
+                for qtr, link in json_data[year].items():
+                    file_link = json_data[year][qtr]
 
-                # convert to md
-                source = file_link # document per local path or URL
-                result = converter.convert(source)
-                md_content = result.document.export_to_markdown()
+                    # convert to md
+                    source = file_link # document per local path or URL
+                    result = converter.convert(source)
+                    md_content = result.document.export_to_markdown()
 
 
-                md_file = f"nvidia_report{year}"
-                for i, picture in enumerate(result.document.pictures):
-                    image_data = picture.get_image(result.document)
-                    if image_data:  # Ensure image exists
-                        md_content = re.sub("<!-- image -->", f"<!-- image_{i+1} -->", md_content, count=1)
-                    
-                        # local_image_path = os.path.join(output_img, f"image_{i + 1}.png")
-                        s3_key = f"{year}/{qtr}/docling/images/image_{i + 1}.png"
+                    md_file = f"nvidia_report{year}"
+                    for i, picture in enumerate(result.document.pictures):
+                        image_data = picture.get_image(result.document)
+                        if image_data:  # Ensure image exists
+                            md_content = re.sub("<!-- image -->", f"<!-- image_{i+1} -->", md_content, count=1)
+                        
+                            # local_image_path = os.path.join(output_img, f"image_{i + 1}.png")
+                            s3_key = f"{year}/{qtr}/docling/images/image_{i + 1}.png"
 
-                        # image_data.save(local_image_path)
-                        img_buffer = BytesIO()
-                        image_data.save(img_buffer, format="PNG")
-                        img_bytes = img_buffer.getvalue()
+                            # image_data.save(local_image_path)
+                            img_buffer = BytesIO()
+                            image_data.save(img_buffer, format="PNG")
+                            img_bytes = img_buffer.getvalue()
 
-                        try:
-                            s3_client.put_object(
-                                Body=img_bytes,
+                            try:
+                                s3_client.put_object(
+                                    Body=img_bytes,
+                                    Bucket=bucket_name, 
+                                    Key=s3_key, 
+                                    ContentType='image/png'
+                                    )
+                            except Exception as e:
+                                print(f"Images not uploaded:str(e)")
+
+                            s3_img_url = f"https://{bucket_name}.s3.{region}.amazonaws.com/{s3_key}"
+                            md_content = md_content.replace(f"<!-- image_{i+1} -->", f"![Image {i + 1}]({s3_img_url})")  
+                        else:
+                            print("no img found")
+
+                    md_bytes = BytesIO(md_content.encode("utf-8"))
+                    s3_key_md = f"{year}/{qtr}/docling/{md_file}.md"
+                    try:
+                        s3_client.put_object(
+                                Body=md_bytes.getvalue(),
                                 Bucket=bucket_name, 
-                                Key=s3_key, 
-                                ContentType='image/png'
+                                Key=s3_key_md, 
+                                ContentType='text/markdown'
                                 )
-                        except Exception as e:
-                            print(f"Images not uploaded:str(e)")
-
-                        s3_img_url = f"https://{bucket_name}.s3.{region}.amazonaws.com/{s3_key}"
-                        md_content = md_content.replace(f"<!-- image_{i+1} -->", f"![Image {i + 1}]({s3_img_url})")  
-                    else:
-                        print("no img found")
-
-                md_bytes = BytesIO(md_content.encode("utf-8"))
-                s3_key_md = f"{year}/{qtr}/docling/{md_file}.md"
-                try:
-                    s3_client.put_object(
-                            Body=md_bytes.getvalue(),
-                            Bucket=bucket_name, 
-                            Key=s3_key_md, 
-                            ContentType='text/markdown'
-                            )
-                    print(f"{year} {qtr}: {file_link}file uploaded ")
-                except :
-                    print("file not uploaded")
+                        print(f"{year} {qtr}: {file_link}file uploaded ")
+                    except :
+                        print("file not uploaded")
         
-        return f"All files uploaded to s3 {year}"
+        return f"All files present on s3"
         
     except  Exception as e:
         return {f"Error": str(e)}
@@ -105,4 +111,5 @@ def report_data_etl():
 
 
 if __name__ == "__main__":
-    report_data_etl()
+    response = report_data_etl()
+    print(response)

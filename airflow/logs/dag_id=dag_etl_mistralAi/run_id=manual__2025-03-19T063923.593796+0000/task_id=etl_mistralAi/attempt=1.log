@@ -1,0 +1,134 @@
+[2025-03-19T06:39:26.543+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-19T06:39:26.574+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_etl_mistralAi.etl_mistralAi manual__2025-03-19T06:39:23.593796+00:00 [queued]>
+[2025-03-19T06:39:26.583+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_etl_mistralAi.etl_mistralAi manual__2025-03-19T06:39:23.593796+00:00 [queued]>
+[2025-03-19T06:39:26.583+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-03-19T06:39:26.598+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): etl_mistralAi> on 2025-03-19 06:39:23.593796+00:00
+[2025-03-19T06:39:26.616+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=522) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-19T06:39:26.618+0000] {standard_task_runner.py:72} INFO - Started process 524 to run task
+[2025-03-19T06:39:26.620+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_etl_mistralAi', 'etl_mistralAi', 'manual__2025-03-19T06:39:23.593796+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_mistralai.py', '--cfg-path', '/tmp/tmpyefa_tjw']
+[2025-03-19T06:39:26.622+0000] {standard_task_runner.py:105} INFO - Job 8: Subtask etl_mistralAi
+[2025-03-19T06:39:26.690+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_etl_mistralAi.etl_mistralAi manual__2025-03-19T06:39:23.593796+00:00 [running]> on host 57e1e7414cf2
+[2025-03-19T06:39:26.766+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_etl_mistralAi' AIRFLOW_CTX_TASK_ID='etl_mistralAi' AIRFLOW_CTX_EXECUTION_DATE='2025-03-19T06:39:23.593796+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-19T06:39:23.593796+00:00'
+[2025-03-19T06:39:26.767+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-19T06:39:27.544+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 401 Unauthorized"
+[2025-03-19T06:39:27.547+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_etl_mistralai.py", line 12, in process_meatadata_links
+    ocrResponse = ocr_response(link)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/utils/etl_mistralAi.py", line 36, in ocr_response
+    raise e  # Raise error if it's not rate limit-related
+    ^^^^^^^
+  File "/opt/airflow/dags/utils/etl_mistralAi.py", line 25, in ocr_response
+    return client.ocr.process(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/mistralai/ocr.py", line 109, in process
+    raise models.SDKError(
+mistralai.models.sdkerror.SDKError: API error occurred: Status 401
+{
+  "message":"No API key found in request",
+  "request_id":"efb46040c9bc3c276a42db25c116994c"
+}
+[2025-03-19T06:39:27.563+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=dag_etl_mistralAi, task_id=etl_mistralAi, run_id=manual__2025-03-19T06:39:23.593796+00:00, execution_date=20250319T063923, start_date=20250319T063926, end_date=20250319T063927
+[2025-03-19T06:39:27.577+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-19T06:39:27.578+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 8 for task etl_mistralAi (API error occurred: Status 401
+{
+  "message":"No API key found in request",
+  "request_id":"efb46040c9bc3c276a42db25c116994c"
+}; 524)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_etl_mistralai.py", line 12, in process_meatadata_links
+    ocrResponse = ocr_response(link)
+                  ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/utils/etl_mistralAi.py", line 36, in ocr_response
+    raise e  # Raise error if it's not rate limit-related
+    ^^^^^^^
+  File "/opt/airflow/dags/utils/etl_mistralAi.py", line 25, in ocr_response
+    return client.ocr.process(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/mistralai/ocr.py", line 109, in process
+    raise models.SDKError(
+mistralai.models.sdkerror.SDKError: API error occurred: Status 401
+{
+  "message":"No API key found in request",
+  "request_id":"efb46040c9bc3c276a42db25c116994c"
+}
+[2025-03-19T06:39:27.602+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-19T06:39:27.617+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-19T06:39:27.619+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

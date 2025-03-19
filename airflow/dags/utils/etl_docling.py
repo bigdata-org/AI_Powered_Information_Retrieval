@@ -4,11 +4,10 @@ from dotenv import load_dotenv
 import requests
 import json
 from boto3.s3.transfer import TransferConfig
-
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.document_converter import DocumentConverter, PdfFormatOption,InputFormat
 import re
-from io import BytesIO, StringIO
+from io import BytesIO
 
 
 load_dotenv()
@@ -84,7 +83,6 @@ def report_data_etl():
                     else:
                         print("no img found")
 
-                
                 md_bytes = BytesIO(md_content.encode("utf-8"))
                 s3_key_md = f"{year}/{qtr}/docling/{md_file}.md"
                 try:

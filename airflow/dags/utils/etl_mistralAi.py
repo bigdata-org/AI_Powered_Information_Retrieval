@@ -1,14 +1,11 @@
 from mistralai import Mistral
 import os 
 from mistralai.models import OCRResponse
-from IPython.display import Markdown, display
 from dotenv import load_dotenv
-from aws.s3 import get_s3_client
-from aws.s3 import metadataLinks
+from utils.aws.s3 import get_s3_client, metadataLinks
 import base64
 from mistralai.models import SDKError
 import time 
-import re
 load_dotenv()
 
 

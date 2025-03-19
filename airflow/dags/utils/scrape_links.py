@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import json
-from aws import s3
+from utils.aws.s3 import get_s3_client
 import os
 import re
 
@@ -16,7 +16,7 @@ def scrape_pdf_links():
     driver = webdriver.Chrome(options=options)
 
     bucket_name = os.getenv('BUCKET_NAME')
-    s3_client = s3.get_s3_client()
+    s3_client = get_s3_client()
     try:
         # Navigate to the page
         driver.get("https://investor.nvidia.com/financial-info/quarterly-results/default.aspx")
@@ -126,4 +126,6 @@ def scrape_pdf_links():
         driver.quit()
 
 
-print(scrape_pdf_links())
+if __name__ == "__main__":
+    response = scrape_pdf_links()
+    print(response)

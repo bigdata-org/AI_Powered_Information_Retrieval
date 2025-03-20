@@ -33,15 +33,6 @@ with DAG(
         python_callable= scrape_pdf_links
     )
 
-    # run_notebook = DatabricksRunNowOperator(
-    #     task_id = "run_notebook",
-    #     databricks_conn_id="databricks_default",
-    #     job_id="619557985935110",
-    #     notebook_params={
-    #         "tool" : "docling"
-    #     }
-    # )
-
     trigger_github_workflow = BashOperator(
         task_id='trigger_github_workflow',
         bash_command= """

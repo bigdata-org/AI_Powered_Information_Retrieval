@@ -8896,3 +8896,108 @@ SyntaxError: invalid syntax
 [2025-03-20T19:28:31.835+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:28:31.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-20T19:28:31.853+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:28:31.853+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
 [2025-03-20T19:28:31.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.893 seconds
+[2025-03-20T19:29:02.571+0000] {processor.py:186} INFO - Started process (PID=2340) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:29:02.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:29:02.574+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:29:02.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:29:03.341+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:29:03.364+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:29:03.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:29:03.410+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:29:03.409+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:29:03.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.939 seconds
+[2025-03-20T19:29:34.233+0000] {processor.py:186} INFO - Started process (PID=2350) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:29:34.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:29:34.235+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:29:34.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:29:35.165+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:29:35.186+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:29:35.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:29:35.204+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:29:35.203+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:29:35.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.995 seconds
+[2025-03-20T19:30:05.366+0000] {processor.py:186} INFO - Started process (PID=2361) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:30:05.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:30:05.369+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:30:05.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:30:06.189+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:30:06.209+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:30:06.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:30:06.229+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:30:06.228+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:30:06.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.910 seconds
+[2025-03-20T19:30:36.854+0000] {processor.py:186} INFO - Started process (PID=2371) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:30:36.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:30:36.857+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:30:36.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:30:37.592+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:30:37.614+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:30:37.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:30:37.799+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:30:37.798+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:30:37.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.972 seconds
+[2025-03-20T19:31:08.507+0000] {processor.py:186} INFO - Started process (PID=2381) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:31:08.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:31:08.510+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:31:08.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:31:09.510+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:31:09.732+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:31:09.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:31:09.762+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:31:09.761+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:31:09.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 1.287 seconds
+[2025-03-20T19:31:40.317+0000] {processor.py:186} INFO - Started process (PID=2391) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:31:40.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:31:40.319+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:31:40.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:31:40.995+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:31:41.168+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:31:41.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:31:41.187+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:31:41.186+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:31:41.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.892 seconds
+[2025-03-20T19:32:11.797+0000] {processor.py:186} INFO - Started process (PID=2401) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:32:11.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:32:11.803+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:32:11.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:32:13.028+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:32:13.064+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:32:13.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:32:13.099+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:32:13.099+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:32:13.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 1.343 seconds
+[2025-03-20T19:32:43.215+0000] {processor.py:186} INFO - Started process (PID=2413) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:32:43.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:32:43.217+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:32:43.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:32:44.111+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:32:44.131+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:32:44.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:32:44.148+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:32:44.148+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:32:44.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.957 seconds
+[2025-03-20T19:33:14.309+0000] {processor.py:186} INFO - Started process (PID=2424) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:33:14.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:33:14.315+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:33:14.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:33:15.909+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:33:15.938+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:33:15.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:33:15.962+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:33:15.962+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:33:15.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 1.694 seconds
+[2025-03-20T19:33:46.641+0000] {processor.py:186} INFO - Started process (PID=2435) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:33:46.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:33:46.643+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:33:46.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:33:47.523+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:33:47.564+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:33:47.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:33:47.796+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:33:47.795+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:33:47.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 1.226 seconds
+[2025-03-20T19:34:18.199+0000] {processor.py:186} INFO - Started process (PID=2445) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:34:18.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:34:18.202+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:34:18.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:34:18.977+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:34:19.174+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:34:19.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:34:19.193+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:34:19.192+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:34:19.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 1.016 seconds
+[2025-03-20T19:34:49.999+0000] {processor.py:186} INFO - Started process (PID=2460) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:34:50.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:34:50.003+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:34:50.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:34:52.024+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:34:52.067+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:34:52.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:34:52.102+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:34:52.102+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:34:52.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 2.146 seconds
+[2025-03-20T19:35:22.611+0000] {processor.py:186} INFO - Started process (PID=2471) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:35:22.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:35:22.613+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:35:22.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:35:23.397+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:35:23.419+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:35:23.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:35:23.449+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:35:23.448+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:35:23.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 0.865 seconds
+[2025-03-20T19:35:54.388+0000] {processor.py:186} INFO - Started process (PID=2481) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:35:54.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:35:54.392+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:35:54.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:35:55.480+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:35:55.508+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:35:55.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:35:55.536+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:35:55.536+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:35:55.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 1.184 seconds
+[2025-03-20T19:36:26.039+0000] {processor.py:186} INFO - Started process (PID=2491) to work on /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:36:26.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_etl_mistralai.py for tasks to queue
+[2025-03-20T19:36:26.043+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:36:26.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:36:27.284+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/dag_etl_mistralai.py
+[2025-03-20T19:36:27.343+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:36:27.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T19:36:27.788+0000] {logging_mixin.py:190} INFO - [2025-03-20T19:36:27.788+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T19:36:27.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_etl_mistralai.py took 1.796 seconds

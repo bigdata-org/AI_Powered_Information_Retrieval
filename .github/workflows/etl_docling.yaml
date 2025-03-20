@@ -81,7 +81,7 @@ jobs:
       run : python backend/load_s3_metadata.py
 
   trigger-databricks:
-      # needs: load-s3-metadata
+      needs: load-s3-metadata
       runs-on: ubuntu-latest
       steps:
         - name: Checkout repository

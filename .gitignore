@@ -3,4 +3,4 @@
 __pycache__
 test/
 txt
-logs/
+airflow/logs/

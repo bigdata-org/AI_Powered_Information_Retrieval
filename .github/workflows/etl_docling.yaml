@@ -2,8 +2,7 @@ name : ETL using Docling
 
 on:
   workflow_dispatch:
-    
-
+  
 jobs:
   etl:
     runs-on: ubuntu-latest

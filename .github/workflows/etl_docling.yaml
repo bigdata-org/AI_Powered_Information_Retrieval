@@ -6,7 +6,7 @@ jobs:
   etl:
     runs-on: ubuntu-latest
     env:
-      BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME}}
+      BUCKET_NAME: ${{ secrets.NEW_BUCKET_NAME}}
       REGION: ${{ secrets.AWS_REGION }}
 
     steps:
@@ -34,8 +34,8 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: ${{ secrets.NEW_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.NEW_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
       
       - name: Debug environment variables
@@ -47,7 +47,7 @@ jobs:
 
       - name: Run Python script for ETL using Docling
         env: 
-          BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME}}
+          BUCKET_NAME: ${{ secrets.NEW_BUCKET_NAME}}
           REGION: ${{ secrets.AWS_REGION }}
 
         run: python backend/etl_docling.py
@@ -70,7 +70,7 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-access-key-id: ${{ secrets.NEW_ACCESS_KEY }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_REGION }}
 

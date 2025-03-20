@@ -10,6 +10,7 @@ from airflow.operators.bash import BashOperator
 import json
 import os
 from dotenv import load_dotenv
+from utils.check import check_s3url_json_is_updated
 
 
 load_dotenv()
@@ -33,7 +34,7 @@ with DAG(
     )
 
     generate_s3_url_metadata = PythonOperator(
-        task_id = "s3_url_metadata",
+        task_id = "load_s3_url_metadata",
         python_callable=gets3url_metadata,
         trigger_rule = "all_success"
     )
@@ -58,7 +59,7 @@ with DAG(
         """,
         env={"GITHUB_BEARER_TOKEN": "{{ var.value.github_bearer_token }}"}
     )
-
+    
     empty_task = EmptyOperator (
         task_id='empty_task'
     )

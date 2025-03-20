@@ -1,7 +1,6 @@
 from datetime import datetime
 from dotenv import load_dotenv
 from airflow import DAG
-from dotenv import load_dotenv
 from airflow.operators.python import PythonOperator
 from utils.scrape_links import scrape_pdf_links
 

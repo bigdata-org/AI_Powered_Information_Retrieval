@@ -1,0 +1,1069 @@
+[2025-03-20T02:04:25.625+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:04:25.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:04:25.629+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:04:25.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:04:25.671+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:04:25.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.077 seconds
+[2025-03-20T02:04:55.857+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:04:55.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:04:55.861+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:04:55.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:04:55.893+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:04:55.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.101 seconds
+[2025-03-20T02:05:26.347+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:05:26.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:05:26.351+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:05:26.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:05:26.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:05:26.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.054 seconds
+[2025-03-20T02:05:56.619+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:05:56.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:05:56.627+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:05:56.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:05:56.658+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:05:56.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.060 seconds
+[2025-03-20T02:06:26.871+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:06:26.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:06:26.877+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:06:26.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:06:26.923+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:06:26.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.078 seconds
+[2025-03-20T02:06:57.590+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:06:57.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:06:57.595+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:06:57.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:06:57.635+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:06:57.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.067 seconds
+[2025-03-20T02:07:28.262+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:07:28.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:07:28.270+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:07:28.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:07:28.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:07:28.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.141 seconds
+[2025-03-20T02:07:58.674+0000] {processor.py:186} INFO - Started process (PID=334) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:07:58.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:07:58.681+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:07:58.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:07:58.724+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:07:58.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.080 seconds
+[2025-03-20T02:08:28.857+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:08:28.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:08:28.862+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:08:28.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:08:28.899+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:08:28.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.065 seconds
+[2025-03-20T02:08:59.497+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:08:59.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:08:59.503+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:08:59.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:08:59.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:08:59.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.079 seconds
+[2025-03-20T02:09:29.783+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:29.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:09:29.788+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:09:29.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:29.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:29.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.049 seconds
+[2025-03-20T02:09:47.137+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:47.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:09:47.145+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:09:47.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:47.197+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:47.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.096 seconds
+[2025-03-20T02:09:49.759+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:49.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:09:49.763+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:09:49.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:49.804+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:09:49.796+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 4, in <module>
+    DatabricksRunNowOperator
+NameError: name 'DatabricksRunNowOperator' is not defined
+[2025-03-20T02:09:49.811+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:49.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.091 seconds
+[2025-03-20T02:09:51.858+0000] {processor.py:186} INFO - Started process (PID=374) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:51.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:09:51.865+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:09:51.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:51.917+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:51.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.091 seconds
+[2025-03-20T02:09:55.019+0000] {processor.py:186} INFO - Started process (PID=376) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:55.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:09:55.023+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:09:55.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:55.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:09:55.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.081 seconds
+[2025-03-20T02:10:05.245+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:10:05.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:10:05.249+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:10:05.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:10:05.331+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:10:05.313+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:10:05.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:10:05.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.137 seconds
+[2025-03-20T02:10:35.552+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:10:35.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:10:35.555+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:10:35.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:10:35.581+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:10:35.573+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:10:35.586+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:10:35.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.055 seconds
+[2025-03-20T02:11:06.310+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:11:06.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:11:06.315+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:11:06.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:11:06.375+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:11:06.357+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:11:06.385+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:11:06.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.107 seconds
+[2025-03-20T02:11:36.726+0000] {processor.py:186} INFO - Started process (PID=413) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:11:36.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:11:36.733+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:11:36.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:11:36.765+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:11:36.753+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:11:36.772+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:11:36.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.074 seconds
+[2025-03-20T02:12:07.535+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:12:07.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:12:07.542+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:12:07.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:12:07.608+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:12:07.593+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:12:07.614+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:12:07.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.111 seconds
+[2025-03-20T02:12:38.286+0000] {processor.py:186} INFO - Started process (PID=433) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:12:38.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:12:38.290+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:12:38.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:12:38.351+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:12:38.337+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:12:38.356+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:12:38.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.126 seconds
+[2025-03-20T02:13:08.867+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:13:08.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:13:08.872+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:13:08.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:13:08.907+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:13:08.896+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:13:08.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:13:08.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.077 seconds
+[2025-03-20T02:13:39.575+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:13:39.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:13:39.579+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:13:39.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:13:39.645+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:13:39.627+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:13:39.655+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:13:39.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.110 seconds
+[2025-03-20T02:14:09.910+0000] {processor.py:186} INFO - Started process (PID=463) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:09.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:14:09.917+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:09.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:09.961+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:09.947+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:14:09.971+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:09.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.092 seconds
+[2025-03-20T02:14:14.033+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:14.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:14:14.040+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:14.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:14.101+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:14.088+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:14:14.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:14.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.108 seconds
+[2025-03-20T02:14:19.191+0000] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:19.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:14:19.201+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:19.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:19.264+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:19.251+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:14:19.272+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:19.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.125 seconds
+[2025-03-20T02:14:22.451+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:22.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:14:22.459+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:22.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:22.573+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:22.550+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:14:22.587+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:22.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.182 seconds
+[2025-03-20T02:14:24.552+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:24.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:14:24.557+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:24.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:24.649+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:24.636+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:14:24.659+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:24.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.140 seconds
+[2025-03-20T02:14:54.891+0000] {processor.py:186} INFO - Started process (PID=481) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:54.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:14:54.894+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:54.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:54.924+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:14:54.915+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:14:54.931+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:14:54.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.072 seconds
+[2025-03-20T02:15:25.373+0000] {processor.py:186} INFO - Started process (PID=494) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:15:25.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:15:25.377+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:15:25.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:15:25.442+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:15:25.423+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:15:25.454+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:15:25.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.122 seconds
+[2025-03-20T02:15:56.213+0000] {processor.py:186} INFO - Started process (PID=504) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:15:56.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:15:56.217+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:15:56.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:15:56.273+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:15:56.259+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 18, in <module>
+    python_callable= check_metadata_present
+                     ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'check_metadata_present' is not defined
+[2025-03-20T02:15:56.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:15:56.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.101 seconds
+[2025-03-20T02:16:18.140+0000] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:18.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:16:18.147+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:18.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:18.193+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:18.183+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 16, in <module>
+    run_notebook = DatabricksRunNowOperator(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DatabricksRunNowOperator' is not defined
+[2025-03-20T02:16:18.201+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:18.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.093 seconds
+[2025-03-20T02:16:19.174+0000] {processor.py:186} INFO - Started process (PID=516) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:19.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:16:19.179+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:19.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:19.232+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:19.222+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 16, in <module>
+    run_notebook = DatabricksRunNowOperator(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DatabricksRunNowOperator' is not defined
+[2025-03-20T02:16:19.239+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:19.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.092 seconds
+[2025-03-20T02:16:30.076+0000] {processor.py:186} INFO - Started process (PID=519) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:30.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:16:30.081+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:30.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:30.135+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:30.344+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:30.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:16:30.379+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:30.378+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:16:30.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.358 seconds
+[2025-03-20T02:16:46.043+0000] {processor.py:186} INFO - Started process (PID=527) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:46.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:16:46.052+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:46.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:46.122+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:46.140+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:46.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:16:46.191+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:46.191+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:16:46.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.220 seconds
+[2025-03-20T02:16:47.087+0000] {processor.py:186} INFO - Started process (PID=528) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:47.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:16:47.095+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:47.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:47.162+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:16:47.183+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:47.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:16:47.235+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:16:47.234+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:16:47.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.217 seconds
+[2025-03-20T02:17:17.866+0000] {processor.py:186} INFO - Started process (PID=539) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:17:17.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:17:17.873+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:17:17.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:17:17.917+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:17:17.933+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:17:17.932+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:17:17.967+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:17:17.967+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:17:17.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.137 seconds
+[2025-03-20T02:17:48.533+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:17:48.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:17:48.539+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:17:48.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:17:48.591+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:17:48.852+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:17:48.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:17:48.876+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:17:48.876+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:17:48.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.377 seconds
+[2025-03-20T02:18:19.223+0000] {processor.py:186} INFO - Started process (PID=559) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:18:19.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:18:19.228+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:18:19.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:18:19.279+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:18:19.313+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:18:19.313+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:18:19.341+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:18:19.341+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:18:19.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.151 seconds
+[2025-03-20T02:18:50.130+0000] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:18:50.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:18:50.135+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:18:50.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:18:50.189+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:18:50.207+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:18:50.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:18:50.256+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:18:50.256+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:18:50.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.178 seconds
+[2025-03-20T02:19:20.397+0000] {processor.py:186} INFO - Started process (PID=579) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:19:20.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:19:20.402+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:19:20.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:19:20.452+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:19:20.646+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:19:20.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:19:20.668+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:19:20.668+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:19:20.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.306 seconds
+[2025-03-20T02:19:50.960+0000] {processor.py:186} INFO - Started process (PID=589) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:19:50.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:19:50.965+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:19:50.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:19:50.997+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:19:51.027+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:19:51.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:19:51.061+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:19:51.061+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:19:51.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.136 seconds
+[2025-03-20T02:20:21.228+0000] {processor.py:186} INFO - Started process (PID=599) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:20:21.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:20:21.234+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:20:21.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:20:21.271+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:20:21.284+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:20:21.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:20:21.312+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:20:21.312+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:20:21.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.121 seconds
+[2025-03-20T02:20:51.974+0000] {processor.py:186} INFO - Started process (PID=609) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:20:51.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:20:52.011+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:20:52.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:20:52.077+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:20:52.317+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:20:52.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:20:52.345+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:20:52.344+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:20:52.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.535 seconds
+[2025-03-20T02:21:22.537+0000] {processor.py:186} INFO - Started process (PID=619) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:21:22.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:21:22.543+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:21:22.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:21:22.591+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:21:22.624+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:21:22.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:21:22.653+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:21:22.652+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:21:22.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.153 seconds
+[2025-03-20T02:21:53.155+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:21:53.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:21:53.162+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:21:53.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:21:53.212+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:21:53.229+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:21:53.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:21:53.266+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:21:53.265+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:21:53.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.152 seconds
+[2025-03-20T02:22:24.056+0000] {processor.py:186} INFO - Started process (PID=643) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:22:24.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:22:24.071+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:22:24.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:22:24.118+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:22:24.545+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:22:24.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:22:24.587+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:22:24.586+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:22:24.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.591 seconds
+[2025-03-20T02:22:54.822+0000] {processor.py:186} INFO - Started process (PID=653) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:22:54.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:22:54.836+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:22:54.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:22:54.882+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:22:54.933+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:22:54.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:22:54.986+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:22:54.985+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:22:55.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.218 seconds
+[2025-03-20T02:23:25.722+0000] {processor.py:186} INFO - Started process (PID=663) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:23:25.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:23:25.728+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:23:25.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:23:25.773+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:23:25.791+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:23:25.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:23:25.826+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:23:25.826+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:23:25.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.150 seconds
+[2025-03-20T02:23:56.370+0000] {processor.py:186} INFO - Started process (PID=676) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:23:56.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:23:56.377+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:23:56.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:23:56.436+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:23:56.456+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:23:56.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:23:56.502+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:23:56.502+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:23:56.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.176 seconds
+[2025-03-20T02:24:27.130+0000] {processor.py:186} INFO - Started process (PID=686) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:24:27.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:24:27.135+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:24:27.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:24:27.188+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:24:27.404+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:24:27.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:24:27.431+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:24:27.431+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:24:27.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.335 seconds
+[2025-03-20T02:24:57.821+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:24:57.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:24:57.826+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:24:57.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:24:57.861+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:24:57.899+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:24:57.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:24:57.924+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:24:57.923+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:24:57.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.146 seconds
+[2025-03-20T02:25:28.151+0000] {processor.py:186} INFO - Started process (PID=706) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:25:28.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:25:28.156+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:25:28.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:25:28.190+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:25:28.206+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:25:28.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:25:28.247+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:25:28.246+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:25:28.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.134 seconds
+[2025-03-20T02:25:58.475+0000] {processor.py:186} INFO - Started process (PID=716) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:25:58.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:25:58.479+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:25:58.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:25:58.513+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:25:58.671+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:25:58.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:25:58.712+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:25:58.711+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:25:58.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.272 seconds
+[2025-03-20T02:26:28.929+0000] {processor.py:186} INFO - Started process (PID=727) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:26:28.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:26:28.935+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:26:28.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:26:28.984+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:26:29.016+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:26:29.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:26:29.042+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:26:29.042+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:26:29.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.153 seconds
+[2025-03-20T02:26:59.269+0000] {processor.py:186} INFO - Started process (PID=736) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:26:59.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:26:59.292+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:26:59.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:26:59.387+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:26:59.440+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:26:59.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:26:59.567+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:26:59.566+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:26:59.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.388 seconds
+[2025-03-20T02:27:29.946+0000] {processor.py:186} INFO - Started process (PID=746) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:27:29.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:27:29.952+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:27:29.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:27:29.992+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:27:30.412+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:27:30.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:27:30.445+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:27:30.444+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:27:30.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.538 seconds
+[2025-03-20T02:28:00.589+0000] {processor.py:186} INFO - Started process (PID=756) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:28:00.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:28:00.595+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:28:00.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:28:00.642+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:28:00.705+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:28:00.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:28:00.786+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:28:00.785+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:28:01.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.543 seconds
+[2025-03-20T02:28:31.464+0000] {processor.py:186} INFO - Started process (PID=769) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:28:31.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:28:31.470+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:28:31.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:28:31.522+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:28:31.535+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:28:31.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:28:31.579+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:28:31.578+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:28:31.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.166 seconds
+[2025-03-20T02:29:01.775+0000] {processor.py:186} INFO - Started process (PID=783) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:29:01.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:29:01.781+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:29:01.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:29:01.828+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:29:02.000+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:29:02.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:29:02.031+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:29:02.030+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:29:02.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.316 seconds
+[2025-03-20T02:29:32.333+0000] {processor.py:186} INFO - Started process (PID=793) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:29:32.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:29:32.339+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:29:32.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:29:32.392+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:29:32.432+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:29:32.431+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:29:32.467+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:29:32.467+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:29:32.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.175 seconds
+[2025-03-20T02:30:02.961+0000] {processor.py:186} INFO - Started process (PID=803) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:30:02.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:30:02.966+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:30:02.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:30:03.002+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:30:03.030+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:30:03.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:30:03.063+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:30:03.062+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:30:03.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.135 seconds
+[2025-03-20T02:30:33.259+0000] {processor.py:186} INFO - Started process (PID=815) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:30:33.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:30:33.267+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:30:33.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:30:33.329+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:30:33.379+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:30:33.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:30:33.408+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:30:33.408+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:30:33.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.187 seconds
+[2025-03-20T02:31:03.863+0000] {processor.py:186} INFO - Started process (PID=826) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:31:03.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:31:03.875+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:31:03.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:31:03.931+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:31:03.978+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:31:03.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:31:04.108+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:31:04.108+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:31:04.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.277 seconds
+[2025-03-20T02:31:34.248+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:31:34.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:31:34.252+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:31:34.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:31:34.309+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:31:34.351+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:31:34.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:31:34.390+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:31:34.390+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:31:34.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.182 seconds
+[2025-03-20T02:32:04.650+0000] {processor.py:186} INFO - Started process (PID=853) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:32:04.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:32:04.656+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:32:04.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:32:04.706+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:32:04.748+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:32:04.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:32:04.782+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:32:04.782+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:32:04.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.168 seconds
+[2025-03-20T02:32:34.954+0000] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:32:34.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:32:34.960+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:32:34.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:32:34.998+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:32:35.031+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:32:35.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:32:35.061+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:32:35.061+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:32:35.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.161 seconds
+[2025-03-20T02:33:05.494+0000] {processor.py:186} INFO - Started process (PID=879) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:33:05.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:33:05.501+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:33:05.500+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:33:05.545+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:33:05.589+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:33:05.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:33:05.618+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:33:05.617+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:33:05.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.160 seconds
+[2025-03-20T02:33:36.196+0000] {processor.py:186} INFO - Started process (PID=889) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:33:36.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:33:36.229+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:33:36.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:33:36.287+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:33:36.327+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:33:36.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:33:36.374+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:33:36.374+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:33:36.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.235 seconds
+[2025-03-20T02:34:06.992+0000] {processor.py:186} INFO - Started process (PID=900) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:34:06.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:34:06.997+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:34:06.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:34:07.041+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:34:07.077+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:34:07.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:34:07.118+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:34:07.117+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:34:07.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.169 seconds
+[2025-03-20T02:34:37.454+0000] {processor.py:186} INFO - Started process (PID=914) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:34:37.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:34:37.459+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:34:37.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:34:37.509+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:34:37.547+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:34:37.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:34:37.575+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:34:37.575+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:34:37.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.156 seconds
+[2025-03-20T02:35:08.137+0000] {processor.py:186} INFO - Started process (PID=926) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:35:08.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:35:08.142+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:35:08.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:35:08.178+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:35:08.237+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:35:08.236+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:35:08.288+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:35:08.288+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:35:08.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.230 seconds
+[2025-03-20T02:35:38.653+0000] {processor.py:186} INFO - Started process (PID=940) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:35:38.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:35:38.659+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:35:38.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:35:38.692+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:35:38.732+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:35:38.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:35:38.764+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:35:38.764+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:35:38.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.165 seconds
+[2025-03-20T02:36:09.307+0000] {processor.py:186} INFO - Started process (PID=951) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:36:09.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:36:09.313+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:36:09.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:36:09.353+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:36:09.404+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:36:09.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:36:09.445+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:36:09.445+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:36:09.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.176 seconds
+[2025-03-20T02:36:39.735+0000] {processor.py:186} INFO - Started process (PID=963) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:36:39.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:36:39.740+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:36:39.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:36:39.819+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:36:39.863+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:36:39.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:36:39.907+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:36:39.906+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:36:39.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.217 seconds
+[2025-03-20T02:37:10.823+0000] {processor.py:186} INFO - Started process (PID=976) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:37:10.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:37:10.832+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:37:10.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:37:10.868+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:37:10.897+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:37:10.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:37:10.932+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:37:10.931+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:37:10.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.147 seconds
+[2025-03-20T02:37:41.137+0000] {processor.py:186} INFO - Started process (PID=989) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:37:41.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:37:41.144+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:37:41.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:37:41.183+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:37:41.225+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:37:41.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:37:41.256+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:37:41.256+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:37:41.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.164 seconds
+[2025-03-20T02:38:11.880+0000] {processor.py:186} INFO - Started process (PID=1000) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:38:11.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:38:11.888+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:38:11.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:38:11.946+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:38:11.991+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:38:11.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:38:12.023+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:38:12.023+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:38:12.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.183 seconds
+[2025-03-20T02:38:42.751+0000] {processor.py:186} INFO - Started process (PID=1010) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:38:42.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:38:42.757+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:38:42.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:38:42.802+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:38:42.968+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:38:42.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:38:42.991+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:38:42.990+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:38:43.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.284 seconds
+[2025-03-20T02:39:13.129+0000] {processor.py:186} INFO - Started process (PID=1021) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:39:13.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:39:13.135+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:39:13.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:39:13.182+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:39:13.212+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:39:13.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:39:13.236+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:39:13.235+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:39:13.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.142 seconds
+[2025-03-20T02:39:43.457+0000] {processor.py:186} INFO - Started process (PID=1031) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:39:43.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:39:43.464+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:39:43.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:39:43.507+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:39:43.527+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:39:43.526+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:39:43.565+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:39:43.565+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:39:43.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.212 seconds
+[2025-03-20T02:40:13.880+0000] {processor.py:186} INFO - Started process (PID=1041) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:40:13.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:40:13.885+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:40:13.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:40:13.915+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:40:14.160+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:40:14.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:40:14.199+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:40:14.198+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:40:14.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.357 seconds
+[2025-03-20T02:40:44.518+0000] {processor.py:186} INFO - Started process (PID=1051) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:40:44.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:40:44.527+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:40:44.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:40:44.565+0000] {processor.py:925} INFO - DAG(s) 'dag_etl_mistralAi' retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:40:44.597+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:40:44.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-20T02:40:44.633+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:40:44.633+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_etl_mistralAi to 2025-04-01 00:00:00+00:00, run_after=2025-05-01 00:00:00+00:00
+[2025-03-20T02:40:44.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.156 seconds
+[2025-03-20T02:41:03.850+0000] {processor.py:186} INFO - Started process (PID=1053) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:41:03.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:41:03.855+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:41:03.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:41:03.890+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:41:03.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.066 seconds
+[2025-03-20T02:41:34.700+0000] {processor.py:186} INFO - Started process (PID=1063) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:41:34.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:41:34.706+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:41:34.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:41:34.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:41:34.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.064 seconds
+[2025-03-20T02:42:05.246+0000] {processor.py:186} INFO - Started process (PID=1072) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:42:05.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:42:05.250+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:42:05.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:42:05.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:42:05.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.074 seconds
+[2025-03-20T02:49:11.383+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:49:11.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:49:11.390+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:49:11.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:49:12.679+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:49:12.669+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 44, in <module>
+    etl_docling = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 489, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2025-03-20T02:49:12.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:49:12.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 1.345 seconds
+[2025-03-20T02:49:43.523+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:49:43.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:49:43.559+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:49:43.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:49:48.620+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:49:48.597+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 44, in <module>
+    etl_docling = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 489, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2025-03-20T02:49:48.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:49:48.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 5.252 seconds
+[2025-03-20T02:50:19.342+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:50:19.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:50:19.346+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:50:19.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:50:19.815+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:50:19.808+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 44, in <module>
+    etl_docling = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 489, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2025-03-20T02:50:19.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:50:19.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.538 seconds
+[2025-03-20T02:50:50.033+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:50:50.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:50:50.039+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:50:50.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:50:50.798+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:50:50.786+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 44, in <module>
+    etl_docling = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 489, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2025-03-20T02:50:50.801+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:50:50.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.826 seconds
+[2025-03-20T02:51:21.212+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:51:21.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:51:21.226+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:51:21.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:51:21.724+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:51:21.719+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 44, in <module>
+    etl_docling = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 489, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2025-03-20T02:51:21.729+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:51:22.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.821 seconds
+[2025-03-20T02:51:48.634+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:51:48.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:51:48.638+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:51:48.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:51:49.014+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:51:49.006+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    etl_docling = PythonOperator(
+                  ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 489, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2025-03-20T02:51:49.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:51:49.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.444 seconds
+[2025-03-20T02:52:02.964+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:02.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:52:02.969+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:02.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:03.377+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:03.372+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = PythonOperator(
+                       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 489, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2025-03-20T02:52:03.379+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:03.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.440 seconds
+[2025-03-20T02:52:06.018+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:06.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:52:06.022+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:06.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:06.437+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:06.426+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = SimpleHttpOperator(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 386, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-03-20T02:52:06.438+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:06.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.457 seconds
+[2025-03-20T02:52:15.623+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:15.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:52:15.827+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:15.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:15.863+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:15.861+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 9
+    from airflow.providers.http.operators.http import 
+                                                      ^
+SyntaxError: invalid syntax
+[2025-03-20T02:52:15.864+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:15.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.270 seconds
+[2025-03-20T02:52:17.733+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:17.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:52:17.967+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:17.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:17.985+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:17.984+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 9
+    from airflow.providers.http.operators.http import
+                                                     ^
+SyntaxError: invalid syntax
+[2025-03-20T02:52:17.986+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:18.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.377 seconds
+[2025-03-20T02:52:23.258+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:23.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:52:23.280+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:23.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:24.057+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:24.050+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = SimpleHttpOperator(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 386, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-03-20T02:52:24.059+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:24.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.858 seconds
+[2025-03-20T02:52:54.220+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:54.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:52:54.224+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:54.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:54.476+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:52:54.471+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = SimpleHttpOperator(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 386, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-03-20T02:52:54.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:52:54.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.300 seconds
+[2025-03-20T02:53:23.923+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:23.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:53:23.928+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:53:23.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:24.182+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:53:24.172+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = SimpleHttpOperator(
+                       ^^^^^^^^^^^^^^^^^^
+NameError: name 'SimpleHttpOperator' is not defined
+[2025-03-20T02:53:24.189+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:24.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.290 seconds
+[2025-03-20T02:53:27.589+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:27.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:53:27.594+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:53:27.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:27.940+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:53:27.935+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = HttpOperator(
+                       ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-03-20T02:53:27.941+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:27.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.392 seconds
+[2025-03-20T02:53:58.488+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:58.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:53:58.492+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:53:58.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:58.710+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:53:58.699+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = HttpOperator(
+                       ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-03-20T02:53:58.711+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:53:58.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.252 seconds
+[2025-03-20T02:54:28.873+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:54:28.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:54:28.876+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:54:28.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:54:29.110+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:54:29.101+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = HttpOperator(
+                       ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-03-20T02:54:29.111+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:54:29.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.269 seconds
+[2025-03-20T02:54:59.730+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:54:59.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:54:59.735+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:54:59.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:54:59.963+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:54:59.958+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/etl_docling.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/etl_docling.py", line 46, in <module>
+    trigger_workflow = HttpOperator(
+                       ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseOperator.__init__() missing 1 required positional argument: 'task_id'
+[2025-03-20T02:54:59.964+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:54:59.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.265 seconds
+[2025-03-20T02:55:16.419+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:55:16.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/etl_docling.py for tasks to queue
+[2025-03-20T02:55:16.431+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:55:16.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:55:16.449+0000] {logging_mixin.py:190} INFO - [2025-03-20T02:55:16.448+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/utils/etl_docling.py assumed to contain no DAGs. Skipping.
+[2025-03-20T02:55:16.449+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/etl_docling.py
+[2025-03-20T02:55:16.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/etl_docling.py took 0.066 seconds

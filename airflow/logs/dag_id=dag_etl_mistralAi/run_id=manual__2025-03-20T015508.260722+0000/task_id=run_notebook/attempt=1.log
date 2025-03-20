@@ -1,0 +1,30 @@
+[2025-03-20T01:56:18.925+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-20T01:56:18.950+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_etl_mistralAi.run_notebook manual__2025-03-20T01:55:08.260722+00:00 [queued]>
+[2025-03-20T01:56:18.962+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_etl_mistralAi.run_notebook manual__2025-03-20T01:55:08.260722+00:00 [queued]>
+[2025-03-20T01:56:18.963+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-03-20T01:56:18.980+0000] {taskinstance.py:2889} INFO - Executing <Task(DatabricksRunNowOperator): run_notebook> on 2025-03-20 01:55:08.260722+00:00
+[2025-03-20T01:56:18.986+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=392) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-20T01:56:18.988+0000] {standard_task_runner.py:72} INFO - Started process 394 to run task
+[2025-03-20T01:56:18.988+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_etl_mistralAi', 'run_notebook', 'manual__2025-03-20T01:55:08.260722+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_mistralai.py', '--cfg-path', '/tmp/tmpmq5tmy96']
+[2025-03-20T01:56:18.989+0000] {standard_task_runner.py:105} INFO - Job 14: Subtask run_notebook
+[2025-03-20T01:56:19.052+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_etl_mistralAi.run_notebook manual__2025-03-20T01:55:08.260722+00:00 [running]> on host 0767c9e71a25
+[2025-03-20T01:56:19.140+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_etl_mistralAi' AIRFLOW_CTX_TASK_ID='run_notebook' AIRFLOW_CTX_EXECUTION_DATE='2025-03-20T01:55:08.260722+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-20T01:55:08.260722+00:00'
+[2025-03-20T01:56:19.141+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-20T01:56:19.167+0000] {base.py:84} INFO - Retrieving connection 'databricks_default'
+[2025-03-20T01:56:19.171+0000] {databricks_base.py:554} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2025-03-20T01:56:20.160+0000] {databricks.py:72} INFO - Run submitted with run_id: 586148166110794
+[2025-03-20T01:56:20.161+0000] {databricks_base.py:554} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2025-03-20T01:56:20.876+0000] {databricks_base.py:554} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2025-03-20T01:56:21.467+0000] {databricks.py:134} INFO - run_notebook in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': ''}
+[2025-03-20T01:56:21.469+0000] {databricks.py:135} INFO - View run status, Spark UI, and logs at https://adb-2586117201484423.3.azuredatabricks.net/?o=2586117201484423#job/619557985935110/run/586148166110794
+[2025-03-20T01:56:21.470+0000] {databricks.py:136} INFO - Sleeping for 30 seconds.
+[2025-03-20T01:56:51.469+0000] {databricks_base.py:554} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2025-03-20T01:56:52.085+0000] {databricks.py:83} INFO - run_notebook completed successfully.
+[2025-03-20T01:56:52.086+0000] {databricks.py:84} INFO - View run status, Spark UI, and logs at https://adb-2586117201484423.3.azuredatabricks.net/?o=2586117201484423#job/619557985935110/run/586148166110794
+[2025-03-20T01:56:52.097+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-20T01:56:52.097+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_etl_mistralAi, task_id=run_notebook, run_id=manual__2025-03-20T01:55:08.260722+00:00, execution_date=20250320T015508, start_date=20250320T015618, end_date=20250320T015652
+[2025-03-20T01:56:52.123+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-20T01:56:52.138+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-20T01:56:52.141+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

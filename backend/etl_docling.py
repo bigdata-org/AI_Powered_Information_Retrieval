@@ -108,4 +108,5 @@ def report_data_etl():
 
 
 if __name__ == "__main__":
-    report_data_etl()
+    response = report_data_etl()
+    print(response)

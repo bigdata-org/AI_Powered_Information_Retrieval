@@ -12,6 +12,8 @@ import re
 def scrape_pdf_links():
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36")
     driver = webdriver.Chrome(options=options)
 
@@ -124,7 +126,6 @@ def scrape_pdf_links():
     finally:
         # Close the browser when done
         driver.quit()
-
 
 if __name__ == "__main__":
     response = scrape_pdf_links()

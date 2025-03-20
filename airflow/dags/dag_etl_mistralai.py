@@ -63,6 +63,7 @@ with DAG(
         task_id='empty_task'
     )
 
+
     scrape_links >> check_metadata
     check_metadata >> [etl_mistralai, empty_task]
     etl_mistralai >> generate_s3_url_metadata

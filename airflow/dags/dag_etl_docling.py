@@ -63,6 +63,7 @@ with DAG(
         task_id='empty_task'
     )
 
+
     scrape_links >> check_metadata
     check_metadata >> [trigger_github_workflow, empty_task]
     trigger_github_workflow  >> generate_s3_url_metadata

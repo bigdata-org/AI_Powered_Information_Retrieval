@@ -1,11 +1,8 @@
 name : ETL using Docling
 
 on:
-  schedule:
-  - cron: "0 0 1 * *"
   workflow_dispatch:
     
-
 jobs:
   etl:
     runs-on: ubuntu-latest

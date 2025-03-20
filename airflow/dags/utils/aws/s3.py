@@ -61,6 +61,5 @@ def gets3url_metadata():
     except Exception as e:
         return str(e)
 
-
 # if __name__ == "__main__":
 #     gets3url_metadata()

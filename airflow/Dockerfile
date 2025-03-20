@@ -25,4 +25,3 @@ RUN wget -q -P /tmp "https://storage.googleapis.com/chrome-for-testing-public/${
 
 
 USER airflow
-

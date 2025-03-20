@@ -9,7 +9,6 @@ import time
 load_dotenv()
 
 
-
 api_key = os.getenv('MISTRAL_API_KEY')
 client = Mistral(api_key=api_key)
 s3_client = get_s3_client()

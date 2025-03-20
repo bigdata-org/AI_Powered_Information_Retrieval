@@ -127,8 +127,6 @@ def scrape_pdf_links():
         # Close the browser when done
         driver.quit()
 
-
 if __name__ == "__main__":
     response = scrape_pdf_links()
     print(response)
-    

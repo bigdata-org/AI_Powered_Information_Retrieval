@@ -9,7 +9,6 @@ from utils.scrape_links import scrape_pdf_links
 
 load_dotenv()
 
-
 with DAG(
     dag_id='dag_scrape_links',
     description='scraping lonk to pdf files',

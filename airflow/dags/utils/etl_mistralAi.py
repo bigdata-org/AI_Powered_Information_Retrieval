@@ -87,10 +87,8 @@ if __name__ == "__main__":
         for qtr, link in data[year].items():
             ocrResponse = ocr_response(link)
             response = get_combined_markdown(ocrResponse,year,qtr)
-            
             print(response)
 
-            
             
 
 

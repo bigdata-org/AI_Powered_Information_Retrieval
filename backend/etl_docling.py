@@ -68,7 +68,7 @@ def report_data_etl():
 
                         # image_data.save(local_image_path)
                         img_buffer = BytesIO()
-                        # image_data.save(img_buffer, format="PNG")
+                        image_data.save(img_buffer, format="PNG")
                         img_bytes = img_buffer.getvalue()
 
                         try:

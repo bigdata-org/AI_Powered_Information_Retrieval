@@ -1,28 +1,18 @@
-from firecrawl import FirecrawlApp
 import os 
 from dotenv import load_dotenv
-import json
 from utils.aws import s3
 
 load_dotenv()
 
-bucket_name = os.getenv('S3_BUCKET_NAME')
-def check_if_file_exists(**context):
-    year = context['params'].get('year','2024')
-    qtr = context['params'].get('qtr','4')
+bucket_name = os.getenv('BUCKET_NAME')
 
-    ti = context['task_instance']
-    ti.xcom_push(key='year', value=year)
-    ti.xcom_push(key='qtr', value=qtr)
-
+def check_metadata_present():
     s3_client = s3.get_s3_client()
-    response = s3_client.list_objects_v2(
-        Bucket=bucket_name,
-        Prefix=f'sec_data/{year}/{qtr}/'
-    )
-    Keys = [obj['Key'] for obj in response.get('Contents', [])]
-    file_count = len(Keys)
+    s3_key = "metadata/metadata.json"
 
-    if file_count >= 4:
-        return 'dbt_curl_command'
-    return 'Upload_data_to_s3'
+    try :
+        s3_client.head_object(Bucket=bucket_name,Key = s3_key)
+        return "etl"
+    except:
+        return "empty_task"
+

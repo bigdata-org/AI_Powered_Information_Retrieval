@@ -17,7 +17,6 @@ def get_s3_client():
     except:
         return -1
     
-s3_client = get_s3_client()
 
 def metadataLinks():
     bucket_name = os.getenv('BUCKET_NAME')
@@ -33,6 +32,7 @@ def metadataLinks():
 
 
 def gets3url_metadata():
+    s3_client = get_s3_client()
     bucket_name = os.getenv('BUCKET_NAME')
     region = os.getenv('REGION')
     data = metadataLinks()

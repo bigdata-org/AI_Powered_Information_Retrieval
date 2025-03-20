@@ -1,0 +1,42 @@
+[2025-03-20T01:55:24.463+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-20T01:55:24.495+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_etl_mistralAi.etl_mistralAi manual__2025-03-20T01:55:08.260722+00:00 [queued]>
+[2025-03-20T01:55:24.510+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_etl_mistralAi.etl_mistralAi manual__2025-03-20T01:55:08.260722+00:00 [queued]>
+[2025-03-20T01:55:24.511+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-03-20T01:55:24.528+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): etl_mistralAi> on 2025-03-20 01:55:08.260722+00:00
+[2025-03-20T01:55:24.540+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=377) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-20T01:55:24.544+0000] {standard_task_runner.py:72} INFO - Started process 379 to run task
+[2025-03-20T01:55:24.544+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_etl_mistralAi', 'etl_mistralAi', 'manual__2025-03-20T01:55:08.260722+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_mistralai.py', '--cfg-path', '/tmp/tmparku1tzw']
+[2025-03-20T01:55:24.545+0000] {standard_task_runner.py:105} INFO - Job 12: Subtask etl_mistralAi
+[2025-03-20T01:55:24.611+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_etl_mistralAi.etl_mistralAi manual__2025-03-20T01:55:08.260722+00:00 [running]> on host 0767c9e71a25
+[2025-03-20T01:55:24.730+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_etl_mistralAi' AIRFLOW_CTX_TASK_ID='etl_mistralAi' AIRFLOW_CTX_EXECUTION_DATE='2025-03-20T01:55:08.260722+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-20T01:55:08.260722+00:00'
+[2025-03-20T01:55:24.731+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-20T01:55:27.094+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:30.633+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:32.830+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:34.877+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:35.423+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 429 Too Many Requests"
+[2025-03-20T01:55:35.426+0000] {logging_mixin.py:190} INFO - Rate limit exceeded. Retrying in 5 seconds...
+[2025-03-20T01:55:42.147+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:44.562+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:46.753+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:48.969+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:51.157+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:53.356+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:55.131+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:56.742+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:55:58.635+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:00.924+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:03.574+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:05.296+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:07.461+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:09.194+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:11.068+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:12.731+0000] {_client.py:1026} INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+[2025-03-20T01:56:13.414+0000] {python.py:240} INFO - Done. Returned value was: ['file uploaded to s3: 4', 'file uploaded to s3: 3', 'file uploaded to s3: 2', 'file uploaded to s3: 1', 'file uploaded to s3: 4', 'file uploaded to s3: 3', 'file uploaded to s3: 2', 'file uploaded to s3: 1', 'file uploaded to s3: 4', 'file uploaded to s3: 3', 'file uploaded to s3: 2', 'file uploaded to s3: 1', 'file uploaded to s3: 4', 'file uploaded to s3: 3', 'file uploaded to s3: 2', 'file uploaded to s3: 1', 'file uploaded to s3: 4', 'file uploaded to s3: 3', 'file uploaded to s3: 2', 'file uploaded to s3: 1']
+[2025-03-20T01:56:13.440+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-20T01:56:13.441+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_etl_mistralAi, task_id=etl_mistralAi, run_id=manual__2025-03-20T01:55:08.260722+00:00, execution_date=20250320T015508, start_date=20250320T015524, end_date=20250320T015613
+[2025-03-20T01:56:13.477+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-20T01:56:13.506+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-20T01:56:13.509+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

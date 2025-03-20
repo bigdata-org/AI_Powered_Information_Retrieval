@@ -41,9 +41,9 @@ jobs:
       - name: Debug environment variables
         run: |
           echo "Checking environment variables (values hidden):"
-          echo "BUCKET_NAME is set: ${{ env.BUCKET_NAME != '' }}"
-          echo "REGION is set: ${{ env.REGION != '' }}"
-          echo "AWS credentials configured: ${{ env.AWS_ACCESS_KEY_ID != '' }}"
+          echo "BUCKET_NAME is set: ${{ env.NEW_BUCKET_NAME != '' }}"
+          echo "REGION is set: ${{ env.AWS_REGION != '' }}"
+          echo "AWS credentials configured: ${{ env.NEW_ACCESS_KEY != '' }}"
 
       - name: Run Python script for ETL using Docling
         env: 
@@ -71,12 +71,12 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.NEW_ACCESS_KEY }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-secret-access-key: ${{ secrets.NEW_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_REGION }}
 
     - name: Load s3 url to metadata
       env: 
-          BUCKET_NAME: ${{ secrets.AWS_BUCKET_NAME}}
+          BUCKET_NAME: ${{ secrets.NEW_BUCKET_NAME}}
           REGION: ${{ secrets.AWS_REGION }}
       run : python backend/load_s3_metadata.py
 

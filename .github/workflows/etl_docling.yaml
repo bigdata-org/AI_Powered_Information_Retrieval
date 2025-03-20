@@ -80,3 +80,25 @@ jobs:
           REGION: ${{ secrets.AWS_REGION }}
       run : python backend/load_s3_metadata.py
 
+  trigger-databricks:
+      needs: load-s3-metadata
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+        - name: Trigger Databricks jobs
+          env:
+            DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST }}
+            DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }} 
+          run: |
+             curl -X POST \
+             -H "Authorization: Bearer $DATABRICKS_TOKEN" \
+             -H "Content-Type: application/json" \
+             "https://$DATABRICKS_HOST/api/2.0/jobs/run-now" \
+             -d '{ 
+              "job_id": "619557985935110", 
+              "job_parameters": {
+              "tool": "docling"
+              }
+             }'

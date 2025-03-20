@@ -33,21 +33,6 @@ with DAG(
         python_callable= scrape_pdf_links
     )
 
-    generate_s3_url_metadata = PythonOperator(
-        task_id = "load_s3_url_metadata",
-        python_callable=gets3url_metadata,
-        trigger_rule = "all_success"
-    )
-
-    run_notebook = DatabricksRunNowOperator(
-        task_id = "run_notebook",
-        databricks_conn_id="databricks_default",
-        job_id="619557985935110",
-        notebook_params={
-            "tool" : "docling"
-        }
-    )
-
     trigger_github_workflow = BashOperator(
         task_id='trigger_github_workflow',
         bash_command= """
@@ -59,12 +44,11 @@ with DAG(
         """,
         env={"GITHUB_BEARER_TOKEN": "{{ var.value.github_bearer_token }}"}
     )
-    
+
     empty_task = EmptyOperator (
         task_id='empty_task'
     )
 
     scrape_links >> check_metadata
     check_metadata >> [trigger_github_workflow, empty_task]
-    trigger_github_workflow  >> generate_s3_url_metadata
-    generate_s3_url_metadata >> run_notebook
+ 

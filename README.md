@@ -38,26 +38,52 @@ Develop a Streamlit application with the following features:
 - Select chunking strategy.
 - Query specific quarter/quarters data to retrieve context.
 
-Use FastAPI to connect the RAG pipeline and return relevant document chunks based on user queries. Leverage your preferred LLM to process and generate responses.
+Used FastAPI to connect the RAG pipeline and return relevant document chunks based on user queries. Leverage your LLM to process and generate responses.
 
 ### **6. Deployment**
 Create two Docker pipelines:
 1. **Airflow pipeline**: For data ingestion, processing, and retrieval.
 2. **Streamlit + FastAPI pipeline**: For user interaction and querying.
 
-### README.md
-Include comprehensive instructions for project setup and usage:
-1. How to clone the repository.
-2. Steps to set up Docker pipelines.
-3. How to run the Airflow pipeline.
-4. Instructions for using the Streamlit application.
-5. Explanation of available features (PDF upload, parser selection, RAG methods, etc.).
 
-### AIUseDisclosure.md
-Detail all AI tools used in the project and their purpose.
+Detail all tools used in the project and their purpose.
+References
+Apache Airflow Documentation – Workflow orchestration and automation.
+🔗https://airflow.apache.org/docs/
 
+Docling GitHub Repository – PDF parsing and text extraction.
+🔗https://github.com/docling-ai
 
----
+Mistral OCR – AI-powered OCR for improved text extraction.
+🔗https://mistral.ai/news/mistral-ocr
 
-## Links to GitHub Tasks
-Each team member must document their contributions clearly by linking tasks owned by them within the repository's issue tracker.
+Pinecone Documentation – Vector database for fast similarity search.
+🔗https://docs.pinecone.io/
+
+ChromaDB Documentation – Open-source vector database for AI applications.
+🔗https://docs.trychroma.com/
+
+FastAPI Documentation – High-performance API framework for Python.
+🔗https://fastapi.tiangolo.com/
+
+Streamlit Documentation – Interactive UI framework for data applications.
+🔗https://docs.streamlit.io/
+
+TF-IDF & Cosine Similarity – Methods for text similarity and retrieval.
+🔗https://scikit-learn.org/stable/modules/feature_extraction.html#tfidf-term-weighting
+
+Docker Documentation – Containerization for deployment.
+🔗https://docs.docker.com/
+
+These references provide the foundational knowledge and tools used in implementing the AI-powered RAG pipeline for information retrieval. 🚀
+
+AI-assisted tools were utilized to enhance the development process, including:
+
+Code optimization and debugging using AI-based suggestions.
+
+Documentation generation and structuring for better clarity.
+
+Automating repetitive coding tasks to improve efficiency.
+
+Reference content and functionality insights were derived using ChatGPT, Perplexity, and DeepSeek.
+

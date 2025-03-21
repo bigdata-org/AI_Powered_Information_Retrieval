@@ -28,8 +28,6 @@ def rag(p_url, model, prompt, chunking_strategy, db, search_params, mode):
             "search_params": search_params
     }
     response = requests.post(url, json=data)
-    st.write(response)
-    st.write(response.content)
     return response.json()
 
 def upload(uploaded_file):

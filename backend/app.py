@@ -11,7 +11,7 @@ from io import BytesIO
 from  dotenv import load_dotenv
 import redis
 import logging
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from utils.helper import *
 from utils.litellm.llm import llm
 
@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 class qaModel(BaseModel):
-    url: str
+    url: Optional[str] = None
     model: str
     mode: str
     prompt: str
@@ -94,8 +94,7 @@ async def qa_pipeline(request: qaModel):
         mode = request.mode
         db = request.db
         search_params = request.search_params
-        if not is_valid_url(url):
-            raise handle_invalid_url()
+        logger.info(f"URL: {url}, Model: {model}, Prompt: {prompt}, Chunking Strategy: {chunking_strategy}, Mode: {mode}, DB: {db}, Search Params: {search_params}")
         if invalid_model(model):
             raise handle_invalid_model()
         if invalid_prompt(prompt):

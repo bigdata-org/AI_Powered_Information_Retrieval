@@ -81,7 +81,7 @@ class pytract_rag:
                 ]
         prompt_builder = ChatPromptBuilder(template=prompt_template)
         prompt = prompt_builder.run(documents=master_documents, query=query)['prompt'][0]._content[0].text
-        response = llm(model, prompt)['markdown']
+        response = llm(model, prompt)
         return response
     
     def run_custom_text_generation_pipeline(self, url, query, model='gpt-4o-mini-2024-07-18'):

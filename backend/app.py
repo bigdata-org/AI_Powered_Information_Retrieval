@@ -13,6 +13,7 @@ import redis
 import logging
 from typing import List, Dict, Any
 from utils.helper import *
+from utils.litellm.llm import llm
 
 # Set up logging
 logging.basicConfig(
@@ -99,13 +100,18 @@ async def qa_pipeline(request: qaModel):
             raise handle_invalid_model()
         if invalid_prompt(prompt):
             raise handle_invalid_prompt()
-        rag = pytract_rag(mode, db, chunking_strategy)
+        
         if db in ['pinecone', 'chromadb'] and mode=='nvidia': 
+            rag = pytract_rag(mode, db, chunking_strategy)
             response = rag.run_nvidia_text_generation_pipeline(search_params, prompt, model) 
         elif db in ['pinecone', 'chromadb'] and mode=='custom': 
+            rag = pytract_rag(mode, db, chunking_strategy)
             response = rag.run_custom_text_generation_pipeline(search_params[0]['src'], prompt, model)
         elif db=='manual' and mode=='custom':
-            response = rag.run_custom_text_generation_pipeline(url, prompt, model)
+            rag = pytract_db(chunking_strategy=chunking_strategy)
+            redis_key=f"{url}:{chunking_strategy}"
+            context = rag.get_top_n_chunks(redis_key, prompt, n=5)
+            response = llm(model=model, prompt=context)
         else:
             response={}
             response['markdown'] = 'UI Cutomization is invalid'

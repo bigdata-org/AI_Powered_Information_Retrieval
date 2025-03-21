@@ -15,12 +15,12 @@ class pytract_db:
     def __init__(self, host='34.31.232.10', port=6379, chunking_strategy='sentence-5'):
         nltk.download('punkt')
         self.cs=chunking_strategy
-        self.redis_client = redis.StrictRedis(host=host, port=port, db=self.cs, decode_responses=True)
         self.host = host
         self.port =port
         self.db = {'sentence-5':0, 'word-400-overlap-40':1, 'char-1200-overlap-120':2}.get(self.cs)
+        self.redis_client = redis.StrictRedis(host=host, port=port, db=self.db, decode_responses=True)
 
-    def _cosine_similarity(vec1, vec2):
+    def _cosine_similarity(self, vec1, vec2):
         return 1 - cosine(vec1, vec2)
 
     def _get_embeddings(self, key):

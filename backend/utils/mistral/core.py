@@ -10,7 +10,7 @@ load_dotenv()
 
 
 api_key = os.getenv('MISTRAL_API_KEY')
-client = Mistral(api_key=api_key)
+
 s3_client = get_s3_client()
 bucket_name = os.getenv('BUCKET_NAME')
 region = os.getenv('AWS_REGION')
@@ -21,6 +21,7 @@ region = os.getenv('AWS_REGION')
 def ocr_response(url, retries=3, delay=5):
    for attempt in range(retries):
         try:
+            client = Mistral(api_key=api_key)
             return client.ocr.process(
                 model="mistral-ocr-latest",
                 document={"type": "document_url", "document_url": url},

@@ -3,87 +3,104 @@
 ## Streamlit : https://pytract-rag.streamlit.app/
 ## Api = https://rag-798800248787.us-central1.run.app
 
-## **Overview**
+# Data Flow for Data Extraction and Querying System
 
-This involves designing and implementing a Retrieval-Augmented Generation (RAG) pipeline using Apache Airflow for orchestrating workflows. The goal is to build an AI-powered information retrieval application that processes unstructured data sources such as PDFs and web pages. The pipeline must be modular and extensible for future applications.
-## **Requirements**
+This repository provides a comprehensive system for extracting, processing, storing, and querying data. Below is a detailed explanation of the system architecture, as illustrated in the diagram.
 
-### **1. Data**
-- Collect NVIDIA quarterly reports for the past five years.
+---
 
-### **2. Data Pipeline**
-- Use Apache Airflow to orchestrate workflows for:
-  - Data ingestion
-  - Processing
-  - Retrieval
+## **System Overview**
 
-### **3. PDF Parsing Strategies**
-Implement three strategies for parsing PDFs:
-1. Build upon Assignment 1’s extraction capabilities.
-2. Use Docling for parsing PDFs.
-3. Explore Mistral OCR for improved text extraction.
+The system consists of four key components:
 
-### **4. RAG Pipeline Implementation**
-- Implement a naive RAG system without a vector database, computing embeddings and cosine similarity manually.
-- Integrate with Pinecone for vector-based retrieval.
-- Integrate with ChromaDB for advanced retrieval.
-- Implement at least three chunking strategies to optimize retrieval.
-- Enable hybrid search to query specific quarter data for context.
+1. **Data Extraction**
+   - **Tools Used**: Selenium for web scraping.
+   - **Processing**: Extracted data is processed using Docling and Mistralai for document parsing and preparation.
 
-### **5. Testing & User Interface**
-Develop a Streamlit application with the following features:
-- Upload PDFs.
-- Select PDF parser (Docling, Mistral OCR, etc.).
-- Choose RAG method (manual embeddings, Pinecone, ChromaDB).
-- Select chunking strategy.
-- Query specific quarter/quarters data to retrieve context.
+2. **Data Storage**
+   - **Storage Medium**: AWS S3 bucket is used for scalable and centralized storage of processed data.
 
-Used FastAPI to connect the RAG pipeline and return relevant document chunks based on user queries. Leverage your LLM to process and generate responses.
+3. **Data Processing**
+   - Three pipelines are supported:
+     - **Pinecone**: Handles chunking strategies and embeddings generation.
+     - **ChromaDB**: Offers an alternative processing pipeline with similar functionality.
+     - **Manual DB**: Allows users to define custom chunking strategies and embeddings generation.
 
-### **6. Deployment**
-Create two Docker pipelines:
-1. **Airflow pipeline**: For data ingestion, processing, and retrieval.
-2. **Streamlit + FastAPI pipeline**: For user interaction and querying.
+4. **Data Querying**
+   - **Backend**: FastAPI serves as the querying interface.
+   - **Frontend**: Streamlit UI provides a user-friendly interface for interacting with the processed data.
+   - 
+## **Architecture Diagram**
+
+Below is the architecture diagram illustrating the data flow:
+
+![Data Flow Diagram](https://pplx-res.cloudinary.com/image/upload/v1742583192/user_uploads/QifyRUrvYHUonpS/image.jpg)
+
+### **Key Components in the Diagram**
+
+1. **Data Extraction**
+   - Data scraping is performed using Selenium.
+   - Data is parsed and prepared using Docling & Mistralai.
+
+2. **Data Storage**
+   - The processed data is stored in an AWS S3 bucket for centralized access.
+
+3. **Data Processing Pipelines**
+   - **Pinecone Pipeline**:
+     - Implements chunking strategies.
+     - Generates embeddings for efficient querying.
+   - **ChromaDB Pipeline**:
+     - Similar to Pinecone but uses ChromaDB for storage and querying.
+   - **Manual DB Pipeline**:
+     - Provides a customizable option for chunking and embeddings generation.
+
+4. **Data Querying**
+   - FastAPI serves as the backend API for querying.
+   - Streamlit UI provides a simple front-end interface for users to interact with the system.
+
+---
+
+## **Features**
+
+- Scalable data storage using AWS S3.
+- Flexible processing pipelines (Pinecone, ChromaDB, Manual DB).
+- User-friendly querying interface with FastAPI and Streamlit UI.
+- Customizable chunking strategies for tailored data processing.
+
+---
+
+## **Setup Instructions**
+
+### Prerequisites
+
+- Python 3.8+
+- AWS CLI configured with access to an S3 bucket
+- Selenium WebDriver installed
+- Docker (optional, for containerized deployment)
+
+### Installation
+
+1. Clone this repository:
+  
+2. Install dependencies:
 
 
-Detail all tools used in the project and their purpose.
-References
-Apache Airflow Documentation – Workflow orchestration and automation.
-🔗https://airflow.apache.org/docs/
+3. Configure your environment variables:
+Create a `.env` file in the root directory with the following keys:
 
-Docling GitHub Repository – PDF parsing and text extraction.
-🔗https://github.com/docling-ai
+AWS_ACCESS_KEY
 
-Mistral OCR – AI-powered OCR for improved text extraction.
-🔗https://mistral.ai/news/mistral-ocr
+AWS_SECRET_KEY
 
-Pinecone Documentation – Vector database for fast similarity search.
-🔗https://docs.pinecone.io/
+S3_BUCKET_NAME
 
-ChromaDB Documentation – Open-source vector database for AI applications.
-🔗https://docs.trychroma.com/
 
-FastAPI Documentation – High-performance API framework for Python.
-🔗https://fastapi.tiangolo.com/
 
-Streamlit Documentation – Interactive UI framework for data applications.
-🔗https://docs.streamlit.io/
+4. Set up Selenium WebDriver:
+Download the appropriate WebDriver for your browser and add it to your system's PATH.
 
-TF-IDF & Cosine Similarity – Methods for text similarity and retrieval.
-🔗https://scikit-learn.org/stable/modules/feature_extraction.html#tfidf-term-weighting
+5. Start the API and UI:
 
-Docker Documentation – Containerization for deployment.
-🔗https://docs.docker.com/
+uvicorn main:app --reload # For FastAPI backend
 
-These references provide the foundational knowledge and tools used in implementing the AI-powered RAG pipeline for information retrieval. 🚀
-
-AI-assisted tools were utilized to enhance the development process, including:
-
-Code optimization and debugging using AI-based suggestions.
-
-Documentation generation and structuring for better clarity.
-
-Automating repetitive coding tasks to improve efficiency.
-
-Reference content and functionality insights were derived using ChatGPT, Perplexity, and DeepSeek.
-
+streamlit run main.py # For Streamlit UI

@@ -1,5 +1,8 @@
 # AI_Powered_Information_Retrieval
 
+## Streamlit : https://pytract-rag.streamlit.app/
+## Api = https://rag-798800248787.us-central1.run.app
+
 ## **Overview**
 
 This involves designing and implementing a Retrieval-Augmented Generation (RAG) pipeline using Apache Airflow for orchestrating workflows. The goal is to build an AI-powered information retrieval application that processes unstructured data sources such as PDFs and web pages. The pipeline must be modular and extensible for future applications.

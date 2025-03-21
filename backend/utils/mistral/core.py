@@ -2,7 +2,7 @@ from mistralai import Mistral
 import os 
 from mistralai.models import OCRResponse
 from dotenv import load_dotenv
-from fastApi.utils.aws.s3 import get_s3_client
+from utils.aws.s3 import get_s3_client
 import base64
 from mistralai.models import SDKError
 import time 
@@ -13,7 +13,7 @@ api_key = os.getenv('MISTRAL_API_KEY')
 client = Mistral(api_key=api_key)
 s3_client = get_s3_client()
 bucket_name = os.getenv('BUCKET_NAME')
-region = os.getenv('REGION')
+region = os.getenv('AWS_REGION')
 # text_model = "mistral-small-latest"
 # ocr_model = "mistral-ocr-latest"
 
@@ -41,7 +41,7 @@ def replace_images_in_markdown(markdown_str: str, images_dict: dict, filename: s
     for img_name, base64_str in images_dict.items():
         img_data = base64_str.split(';')[1].split(',')[1]
         image_data = base64.b64decode(img_data)
-        s3_image_key = f"uploads/mistral/{filename}/images/{img_name}"  
+        s3_image_key = f"results/mistral/{filename}/images/{img_name}"  
 
         s3_client.put_object(
             Bucket=bucket_name,
@@ -66,7 +66,7 @@ def get_combined_markdown(ocr_response: OCRResponse, filename: str) -> str:
             markdowns.append(replace_images_in_markdown(page.markdown, image_data, filename))
         md_file = "\n\n".join(markdowns)
 
-        s3_key = f"uploads/mistral/{filename}/{filename}.md"
+        s3_key = f"results/mistral/{filename}/content.md"
             
         s3_client.put_object(
         Bucket=bucket_name,
@@ -75,9 +75,9 @@ def get_combined_markdown(ocr_response: OCRResponse, filename: str) -> str:
         ContentType="text/markdown" 
         )
             
-        return f"file uploaded to s3: {filename}"
+        return f"https://{bucket_name}.s3.{region}.amazonaws.com/results/mistral/{filename}/content.md"
     except Exception as e:
-        return str(e)
+        return -1
 
 
 def mistral_parser(url):
@@ -86,12 +86,6 @@ def mistral_parser(url):
     response = get_combined_markdown(ocrResponse,file_name)
     return response
     
-
-
-# if __name__ == "__main__":
-#     respones = mistral_parser("https://rag-pipeline-data.s3.us-east-2.amazonaws.com/p.pdf")
-#     print(respones)
-            
 
 
 

@@ -19,7 +19,7 @@ def docling_PDF2MD(url):
     )
 
     bucket_name = os.getenv('BUCKET_NAME')
-    region = os.getenv('REGION')
+    region = os.getenv('AWS_REGION')
     s3_client = get_s3_client()
 
     file_name = url.split("/")[-1].split(".")[0]

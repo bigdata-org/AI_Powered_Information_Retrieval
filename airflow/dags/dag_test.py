@@ -1,11 +1,13 @@
 from datetime import datetime
-from dotenv import load_dotenv
 from airflow import DAG
-from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator, BranchPythonOperator
+from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
+from airflow.operators.empty import EmptyOperator
+from utils.etl_mistralAi import metadataLinks, ocr_response, get_combined_markdown
+from utils.check import check_metadata_present
+from utils.scrape_links import scrape_pdf_links
+from utils.aws.s3 import gets3url_metadata
 
-
-
-load_dotenv()
 
 with DAG(
     dag_id='dag_test',
@@ -14,24 +16,15 @@ with DAG(
     schedule_interval='@monthly'
 ) as dag :
     
-    check_workflow_status = BashOperator(
-    task_id='check_workflow_status',
-    bash_command= """
-        # Extract run ID from the URL
-        RUN_URL=$(cat /tmp/workflow_run_url.txt)
-        
-        # Poll until complete
-        while true; do
-            STATUS=$(curl -s -H "Authorization: Bearer $GITHUB_BEARER_TOKEN" $RUN_URL | jq -r '.conclusion')
-            if [[ "$STATUS" != "null" ]]; then
-                echo "Workflow completed with status: $STATUS"
-                break
-            fi
-            sleep 30
-        done
-    """,
-    env={"GITHUB_BEARER_TOKEN": "{{ var.value.github_bearer_token }}"}
-)
+    run_notebook = DatabricksRunNowOperator(
+        task_id = "run_notebook",
+        databricks_conn_id="databricks_default",
+        job_id="915262908716993",
+        job_parameters={
+            "tool" : "mistral"
+        },
+        trigger_rule = "all_success"
+    )
 
 
 

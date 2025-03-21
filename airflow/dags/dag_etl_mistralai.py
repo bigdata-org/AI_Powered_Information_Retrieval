@@ -52,7 +52,7 @@ with DAG(
     run_notebook = DatabricksRunNowOperator(
         task_id = "run_notebook",
         databricks_conn_id="databricks_default",
-        job_id="619557985935110",
+        job_id="915262908716993",
         job_parameters={
             "tool" : "mistral"
         },

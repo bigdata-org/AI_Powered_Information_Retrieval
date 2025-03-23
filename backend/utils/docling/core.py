@@ -1,16 +1,13 @@
-from fastApi.utils.aws import s3
 import os 
+from utils.aws.s3 import get_s3_client
 from dotenv import load_dotenv
-from boto3.s3.transfer import TransferConfig
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.document_converter import DocumentConverter, PdfFormatOption,InputFormat
 import re
 from io import BytesIO
-
-
 load_dotenv()
 
-def upload_data_etl(url):
+def docling_PDF2MD(url):
     pipeline_options = PdfPipelineOptions()
     pipeline_options.generate_picture_images = True
     pipeline_options.images_scale = 1.0
@@ -21,18 +18,9 @@ def upload_data_etl(url):
         }
     )
 
-    headers = {
-        'User-Agent': 'MIT  bigdata@gmail.com',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Host': 'www.sec.gov',
-        'Connection': 'keep-alive'
-        }
-
     bucket_name = os.getenv('BUCKET_NAME')
-    region = os.getenv('REGION')
-    s3_client = s3.get_s3_client()
+    region = os.getenv('AWS_REGION')
+    s3_client = get_s3_client()
 
     file_name = url.split("/")[-1].split(".")[0]
 
@@ -47,7 +35,7 @@ def upload_data_etl(url):
             md_content = re.sub("<!-- image -->", f"<!-- image_{i+1} -->", md_content, count=1)
         
             # local_image_path = os.path.join(output_img, f"image_{i + 1}.png")
-            s3_key = f"uploads/docling/{file_name}/images/image_{i + 1}.png"
+            s3_key = f"results/docling/{file_name}/images/image_{i + 1}.png"
 
             # image_data.save(local_image_path)
             img_buffer = BytesIO()
@@ -71,7 +59,7 @@ def upload_data_etl(url):
             print("no img found")
 
     md_bytes = BytesIO(md_content.encode("utf-8"))
-    s3_key_md = f"uploads/docling/{file_name}/{file_name}.md"
+    s3_key_md = f"results/docling/{file_name}/content.md"
     try:
         s3_client.put_object(
                 Body=md_bytes.getvalue(),
@@ -79,11 +67,6 @@ def upload_data_etl(url):
                 Key=s3_key_md, 
                 ContentType='text/markdown'
                 )
-        print(f"{file_name} file uploaded ")
+        return f"https://{bucket_name}.s3.{region}.amazonaws.com/{s3_key_md}"
     except :
-        print("file not uploaded")
-
-    return f"All files uploaded to s3"
-
-# if __name__ == "__main__":
-#     upload_data_etl("https://rag-pipeline-data.s3.us-east-2.amazonaws.com/p.pdf")
+        return None
